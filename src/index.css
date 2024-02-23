@@ -14,10 +14,13 @@ body > div {
 #container > div {
   display: flex;
 }
+
 #navbar {
   padding: 2em;
   justify-content: space-evenly;
+  font-size: 20px;
 }
+
 #main-section {
   flex-grow: 1;
 }
@@ -27,6 +30,14 @@ body > div {
   align-items: center;
   justify-content: center;
 }
+
+h2 {
+  color: white;
+  background-color: green;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
 .red {
   background-color: #b05f6d;
   color: white;
@@ -34,4 +45,40 @@ body > div {
 .blue {
   background-color: #275db3;
   color: white;
+}
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.home {
+  background-color: black;
+  color: white;
+}
+
+/* CSS for Navbar Links */
+#navbar a {
+  text-decoration: none;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: color 0.3s ease;
+}
+
+#navbar a:hover {
+  color: darkslategrey;
+  font-weight: bold;
+}
+
+/* CSS for Footer Links */
+footer a {
+  text-decoration: none;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: color 0.3s ease;
+  margin-right: 90px;
+}
+
+footer a:hover {
+  color: darkslategrey;
+  font-weight: bold;
 }
